@@ -1,0 +1,59 @@
+.window{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  width: 400px;
+}
+
+.sidebar-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+
+.card{
+  width: calc(100vw - 400px);
+  border: 1px solid #3683e9;
+  border-radius: 10px;
+  margin: 20px
+}
+
+.card-head{
+  background-color: lightblue;
+  padding: 1em;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.card-body{
+  padding: 2em;
+}
+
+.pcsStdElement{
+  display: flex;
+  flex-direction: row;  
+  border-radius: 5px;
+  width: 450px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.pcsLabel{
+  width: 200px;
+  background-color: #ccc;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid darkgray;
+  padding-left: .5em;
+}
+
+.pcsSchalter{
+  width: 50px;
+  background-color: #1579bd;
+  border: 1px solid darkgray;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
