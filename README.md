@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# App zum Laufen bringen
+[nide.js](https://nodejs.org/en) installieren
 
 ## Available Scripts
 
